@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNEB Code</title>
+    <script src="./scripts.js"></script>
+    <link
+      rel="shortcut icon"
+      href="http://portal.uneb.br/wp-content/uploads/2019/09/favicon-uneb-dept.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./table-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../uneb-code.png" alt="UNEB Code" />
+    </header>
+
+    <section>
+      <div class="row">
+        <div class="column" id="column-1">
+          <h1>Guia do HTML e CSS</h1>
+          <p>
+            Estamos dando os nossos primeiros passos com desenvolvimento Web e
+            aprendendo a criar uma página do ZERO!
+          </p>
+          <img
+            src="./assets/imgCircular.png"
+            alt="guia do HTML e CSS"
+            class="img-section"
+          />
+        </div>
+        <div class="column" id="column-2">
+          <form id="form">
+            <div>
+              <h3>Cadastro de alunos(as)</h3>
+              <span>
+                Levantamento de informações - Discentes UNEB/ DCET II.
+              </span>
+            </div>
+
+            <label for="name">Nome: </label>
+            <input
+              placeholder="Insira seu nome"
+              type="text"
+              required
+              id="name"
+              name="name"
+            />
+
+            <label for="email">E-mail:</label><br />
+            <input
+              required
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Insira seu email"
+            />
+            <label for="registration">Matrícula:</label><br />
+            <input
+              required
+              type="text"
+              id="registration"
+              name="registration"
+              placeholder="Insira sua matrícula"
+            />
+            <label for="score">Score:</label><br />
+            <input
+              required
+              type="text"
+              id="score"
+              name="score"
+              placeholder="informe seu score"
+            />
+            <div class="form-group">
+              <input type="submit" />
+              <input type="reset" />
+            </div>
+          </form>
+        </div>
+
+        <div class="column" id="column-3">
+          <div class="card">
+            <div style="overflow-x: 'auto'">
+              <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Matrícula</th>
+                    <th>Score</th>
+                    <th>Ações</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Gabriel S Cruz</td>
+                    <td>gabrielscruz.g81@gmail.com</td>
+                    <td>021820081</td>
+                    <td>8.1</td>
+                    <td><i class="fas fa-edit"></i>
+                      
+                      <i class="fas fa-trash"></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Julio Oliveira</td>
+                    <td>dr.julio@uneb.br</td>
+                    <td>123456789</td>
+                    <td>10</td>
+                    <td>
+                      <i class="fas fa-edit"></i>
+                      
+                      <i class="fas fa-trash">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <article>
+        <img src="assets/webDoZero.png" alt="web do zero" />
+        <h4>Crie uma página Web do ZERO</h4>
+        <span>
+          Sem precisar de conhecimento prévio, estamos aprendendo a construir
+          uma página Web do zero igual a essa!
+        </span>
+      </article>
+      <article>
+        <img src="assets/html5.png" alt="html5" />
+        <h4>Dê seus primeiros passos com HTML</h4>
+        <span>
+          Conheça a estrutura de um documento HTML na prática, além de conhecer
+          diversas tags e suas funções.
+        </span>
+      </article>
+      <article>
+        <img src="assets/css3.png" alt="css3" />
+        <h4>Dê identidade a sua página com CSS</h4>
+        <span>
+          Aprenda a utilizar o CSS para formatar o seu projeto, proporcionando
+          uma identidade própria para sua página!
+        </span>
+      </article>
+    </footer>
+  </body>
+</html>
